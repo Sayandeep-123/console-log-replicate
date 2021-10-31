@@ -50,7 +50,7 @@ input[type=checkbox] {
 }
 input[type=checkbox]:checked ~ nav{
     z-index: 100;
-    width: 250px;
+    width: 20vw;
 }
 .overlay{
     position: absolute;
@@ -538,6 +538,10 @@ input[type= checkbox]:checked ~ .overlay{
     #b8d2-con{
         min-width: 300px;
         padding: 5rem 2rem;
+    }
+    input[type=checkbox]:checked ~ nav{
+        z-index: 100;
+        width: 40vw;
     }
 }
 @media only screen and (min-width: 0px) and (max-width: 350px) {
